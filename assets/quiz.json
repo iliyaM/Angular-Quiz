@@ -1,0 +1,202 @@
+{
+    "name": "Quiz",
+    "description": "Angular quiz",
+    "questions": [
+        {
+            "id": 1,
+            "selectedAnswer": null,
+            "correctAnswer": 11,
+            "name": "The average person does what thirteen times a day",
+            "answers": [
+                {
+                    "answerId": 11,
+                    "name": "Laughs",
+                    "isAnswered": false
+                },
+                {
+                    "answerId": 12,
+                    "name": "Sneezes",
+                    "isAnswered": false
+                },
+                {
+                    "answerId": 13,
+                    "name": "Eats",
+                    "isAnswered": false
+                },
+                {
+                    "answerId": 14,
+                    "name": "None of the above",
+                    "isAnswered": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "In the French vineyards, it's illegal to do what?",
+            "selectedAnswer": null,
+            "correctAnswer": 21,
+            "answers": [
+                {
+                    "answerId": 21,
+                    "name": "Land a Flying Saucer",
+                    "isAnswer": false
+                },
+                {
+                    "answerId": 22,
+                    "name": "Run naked",
+                    "isAnswer": true
+                },
+                {
+                    "answerId": 33,
+                    "name": "Eat Chips",
+                    "isAnswer": false
+                },
+                {
+                    "answerId": 44,
+                    "name": "Play Music",
+                    "isAnswer": false
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "selectedAnswer": null,
+            "correctAnswer": 34,
+            "name": "Coprastastaphobia is the fear of what",
+            "answers": [
+                {
+                    "answerId": 31,
+                    "name": "Spiders",
+                    "isAnswer": false
+                },
+                {
+                    "answerId": 32,
+                    "name": "Elevators",
+                    "isAnswer": true
+                },
+                {
+                    "answerId": 33,
+                    "name": "Clowns",
+                    "isAnswer": false
+                },
+                {
+                    "answerId": 34,
+                    "name": "Constipation",
+                    "isAnswer": false
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "selectedAnswer": null,
+            "correctAnswer": 44,
+            "name": "In Minnesota it is illegal to tease what type of animal?",
+            "answers": [
+                {
+                    "answerId": 41,
+                    "name": "Leemor",
+                    "isAnswer": false
+                },
+                {
+                    "answerId": 42,
+                    "name": "Cow",
+                    "isAnswer": true
+                },
+                {
+                    "answerId": 43,
+                    "name": "Monkey",
+                    "isAnswer": false
+                },
+                {
+                    "answerId": 44,
+                    "name": "Skunk",
+                    "isAnswer": false
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": " How many players are there in a baseball team?",
+            "selectedAnswer": null,
+            "correctAnswer": 53,
+            "answers": [
+                {
+                    "answerId": 51,
+                    "name": "Seven",
+                    "isAnswer": false
+                },
+                {
+                    "answerId": 52,
+                    "name": "eight",
+                    "isAnswer": true
+                },
+                {
+                    "answerId": 53,
+                    "name": "Nine",
+                    "isAnswer": false
+                },
+                {
+                    "answerId": 54,
+                    "name": "Five",
+                    "isAnswer": false
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Which movie features Bruce Willis as John McClane",
+            "selectedAnswer": null,
+            "correctAnswer": 62,
+            "answers": [
+                {
+                    "answerId": 61,
+                    "name": "Saving private ryan",
+                    "isAnswer": false
+                },
+                {
+                    "answerId": 62,
+                    "name": "Die Hard",
+                    "isAnswer": true
+                },
+                {
+                    "answerId": 63,
+                    "name": "Matrix",
+                    "isAnswer": false
+                },
+                {
+                    "answerId": 64,
+                    "name": "James bond",
+                    "isAnswer": false
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "selectedAnswer": null,
+            "correctAnswer": 73,
+            "name": "Which TV character said, \"Live long and prosper\"?",
+            "answers": [
+                {
+                    "answerId": 71,
+                    "name": "Alfred from batman",
+                    "isAnswer": false
+                },
+                {
+                    "answerId": 72,
+                    "name": "Angent smith from matrix",
+                    "isAnswer": true
+                },
+                {
+                    "answerId": 73,
+                    "name": "Mr Spock from Star Trek",
+                    "isAnswer": false
+                },
+                {
+                    "answerId": 74,
+                    "name": "Katniss from hunger games",
+                    "isAnswer": false
+                }
+            ]
+        }
+    ]   
+}
