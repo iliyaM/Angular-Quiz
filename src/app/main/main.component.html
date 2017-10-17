@@ -1,0 +1,34 @@
+<section class="quiz">
+
+  <div *ngIf="questions">
+
+    <div class="question">
+      <h2>{{questions[index].name}}</h2>
+    </div>
+  
+    <ul class="questions container">
+      <li *ngFor="let answer of questions[index].answers"
+          (click)="markAnswer(answer.answerId)"
+          [ngClass]="{'chosen': answer.answerId == questions[index].selectedAnswer }">
+        <p> {{ answer.name }} </p>
+      </li>
+    </ul>
+
+    <div class="buttons">
+      <button [disabled]="index == 0" (click)="prev()">Prev</button>
+
+      <div *ngIf="index == questions.length-1 && questions[index].selectedAnswer != null; else nextButton">
+        <button (click)="summery = true" class="done">Done</button>
+      </div>
+    </div>
+
+    <ng-template #nextButton>
+        <button [disabled]="questions[index].selectedAnswer == null || index == questions.length-1" (click)="next()">Next</button>
+    </ng-template>
+
+  </div>
+
+  <div *ngIf="summery">
+      <app-summery [doneQuestions]="questions" (notifyToClose)="closeEventFromChild($event)"></app-summery>
+  </div>
+</section>

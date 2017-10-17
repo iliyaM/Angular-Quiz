@@ -1,0 +1,58 @@
+@import '../common.less';
+
+div.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: lightgray;
+}
+
+div.overlay div.popup {
+    display: block;
+    width: 500px;
+    color: @color_deault;
+    background-color: white;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+div.overlay div.popup div.headLine {
+    background-color: @color_bg;
+    color: white;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+div.overlay div.popup div.content {
+    background-color: white;
+    color: @color_deault;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+div.overlay div.popup div.buttons {
+    background-color: @color_bg;
+    text-align: center;
+
+
+    & button {
+        padding: 1.5em 0;
+        width: 200px;
+        background-color: transparent;
+        border: 1px solid @color_border;
+        margin: 0.5em auto;
+        padding: 1em;
+        transition: all 0.3s;
+        color: @color_border;
+
+        &:hover {
+            background-color: @color_hover;
+        }
+    }
+}

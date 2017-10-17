@@ -1,0 +1,19 @@
+<div class="overlay">
+    <div class="popup">
+        
+        <div class="headLine">
+            <h1>Your Score</h1>
+        </div>
+
+        <div class="content">
+            <p>You got: {{ wrongAnswers}} / {{ questions.length }} wrong </p>
+            <p>You got: {{ rightAnswers }} / {{ questions.length }} right</p>
+            <p>YourScore: {{ userScore }} / 100</p>
+        </div>        
+
+        <div class="buttons">
+            <button (click)="closeButtonClicked($event)">Close</button>
+        </div>        
+        
+    </div>
+</div>
